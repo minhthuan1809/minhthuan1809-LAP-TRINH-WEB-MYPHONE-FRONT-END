@@ -1,0 +1,141 @@
+
+
+
+
+.main-sp {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 60px 0;
+}
+
+.main-sp .left-img-sp {
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    /* padding-right: 20px; */
+}
+
+.main-sp .left-img-sp img {
+    width: 550px;
+}
+
+.right-infomation>p {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px #ccc solid;
+}
+
+.right-infomation small {
+    display: block;
+    font-size: 20px;
+    color: red;
+    border-bottom: 1px #ccc solid;
+}
+
+.right-infomation .mausac {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    border-bottom: 1px #ccc solid;
+}
+
+.right-infomation .mausac p {
+    line-height: 60px;
+}
+
+.main-sp .mausac .img {
+    display: flex;
+}
+
+.mausac .mg:hover {
+    transform: scale(1.1);
+    transition: ease-out;
+}
+
+.main-sp .mausac .img>img {
+    width: 40px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.right-infomation .size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.right-infomation .size>p {
+    line-height: 40px;
+}
+
+.right-infomation .size .sub-size button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.right-infomation .size .sub-size button:hover {
+    background-color: #0975f5;
+    transition: ease-in;
+    color: white;
+}
+
+.right-infomation .soluong {
+    display: flex;
+    padding-top: 10px;
+}
+
+.right-infomation .soluong>p {
+    height: 40px;
+    line-height: 40px;
+}
+
+.right-infomation .soluong>select {
+    margin-left: 20px;
+    background-color: #ccc;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.mota p {
+    color: rgba(41, 40, 40, 0.877);
+}
+.mota{
+    position:absolute ;
+    left: 55%;
+}
+
+.right-infomation .soluong>select:hover {
+    background-color: #0975f5;
+    color: #fff;
+}
+
+.right-infomation .add-cart {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 410px;
+    height: 52px;
+    line-height: 52px;
+    margin-top: 40px;
+}
+
+.right-infomation .add-cart:hover {
+    background-color: #0975f5;
+}
+
+.right-infomation .add-cart a {
+    text-decoration: none;
+    color: #fff;
+}
+.mota{
+    margin-top: 30%;
+    left: 15%;
+}

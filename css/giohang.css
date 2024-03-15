@@ -1,0 +1,21 @@
+.c-card{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+.btn-back {
+    position: absolute;
+    top: 72%;
+    padding: 15px 20px;
+    right:43.5% ;
+    border-radius: 30px;
+    color: white;
+    background-color: #3c97bf;
+    text-decoration: none;
+   /* bottom: 90%; */
+    
+}
+.text_cart-box{
+    margin-top: 10px;
+    margin-left: 25px;
+}
